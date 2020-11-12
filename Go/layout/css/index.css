@@ -1,0 +1,156 @@
+body {
+    background: darkgrey;
+}
+
+.ta {
+    resize: none;
+}
+
+.btnp {
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.todo 
+{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.btnR
+{
+    float: right;
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 2px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    margin: 5px;
+}
+
+.contenedorR
+{
+    width: 910px;
+    float: left;
+    margin: auto;
+    color:black;
+    
+}
+
+.outs
+{
+    margin: 15px;
+    background:black;
+    color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.contenedor{
+    width: 1050px;
+    float: left;
+    margin: auto;
+    color:black;
+    padding: 15px 15px 15px 15px;
+    
+}
+
+.contenedor .titulo{
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanas ul{
+    margin-left: -40px;
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: #22556e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid rgb(0, 112, 163);
+    border-bottom: dimgray;
+    padding: 0px 20px 0px 20px;
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#contenidopestanas{
+    clear: both;
+    background: dimgray;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid rgb(0, 112, 163);
+    width: 1025px;
+}
+
+#pestanascon {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanascon ul{
+    margin-left: -40px;
+}
+
+#pestanascon li{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: #22556e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid rgb(0, 112, 163);
+    border-bottom: dimgray;
+    padding: 0px 20px 0px 20px;
+}
+
+#pestanascon a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#contenidopestanascon{
+    clear: both;
+    background: dimgray;
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid rgb(0, 112, 163);
+    width: 1025px;
+}

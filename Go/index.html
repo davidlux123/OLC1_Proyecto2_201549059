@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="layout/css/index.css"/>
+        <script type="text/javascript" src="layout/js/index.js"></script>
+        <script type="text/javascript" src="layout/js/jquery-1.7.2.min.js"></script>
+
+        <script src="./layout/codemirror/lib/codemirror.js"></script>
+        <link rel="stylesheet" href="./layout/codemirror//lib//codemirror.css">
+        <link rel="stylesheet" href="./layout/codemirror//theme//eclipse.css">
+        <script src="./layout/codemirror/mode/clike/clike.js"></script>
+        <title>Proyecto1 OLC1</title>
+    </head>
+    <body>
+        <div class="todo">
+
+            <div class="contenedor">
+                <input id="fileInput" title="Abrir" type="file" size="50" onchange="AbrirArchivo(this.files)" class="btnp">
+                <button onclick="DescargarArchivo();" id="guardar" title="Guardar" class="btnp">Guardar Pestaña Actual</button>
+                <button onclick="DescargarSalidaPython();" id="btn3" class="btnp">Decargar Archivo Python</button>
+
+                
+                <h2></h2>
+                <button onclick="agregar();" title="AgregarPestana" id="btn4" class="btnR">Agregar Pestana</button>
+                <button onclick="quitar();" title="QuitarPestana" id="btn5" class="btnR">Quitar Pestana</button>
+                <h2>David Lux 201549059</h2>
+               
+                <div id="pestanas">
+                    <ul id=lista>
+                    </ul>
+                </div>
+                <body>
+                    <div id="contenidopestanas"> </div>
+                </body>
+
+                <h2></h2>
+                <button onclick="traducir()" title="analizar" id="btn6" class="btnR">Analizar y Traducir</button>
+
+            </div>
+            
+            <div class="contenedorR">
+          
+                <a href="../getTokens" class="btnR" target="_blank">Mostrar Tokens</a>
+                <a href="../getErrores" class="btnR" target="_blank">Mostrar Errores</a>
+                <a href="../getAST" class="btnR" target="_blank">Mostrar AST</a>  
+
+                <textarea disabled class="outs" id="outPy" cols="113" rows="28px">Consola Python:</textarea>
+                <textarea disabled class="outs" id="outJS" cols="113" rows="28px">Consola JS:</textarea>
+                
+            </div>
+
+        </div>
+
+    </body>
+</html>
