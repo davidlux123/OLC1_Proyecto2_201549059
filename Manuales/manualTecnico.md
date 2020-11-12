@@ -95,10 +95,14 @@ Contiene los archivos de los servidores del backend.
 	En esta capeta se encuenta los archivos transpilados de TypeScript a JavaScript que seran los cuales seran los que daran funcionamento al backend, son los mismos archivos typescript de la carpeta Node, solo que codificados en JavaScript.
 
 - ## **node_modules, packpage-lock.json**
-	En esta capeta estan instaladas las dependecnias de las instalaciones de cors, experess y lo necesario para correr un archivo de Node.js
+	En esta capeta estan instaladas las dependecnias de las instalaciones de cors, experess y lo necesario para correr un archivo de NodeJs
 
 - ## **app.js**
 	En este archvio configura y levanta el servidor de NodeJS, el cual recibe la peticion que envia el servidor de Golang que contiene le codigo de java obtenido de la pestaña actual para comenzar el analisis y transpilasion del lenguaje java
 
 - ## **tsconfig.json**
 	Este archivo se encuentra la configuracion de las herramientas de typescript
+
+# Archivo docker-compose.yml
+
+declara los nombres de los servicios, puertos, volúmenes y además define la ruta del Dockerfile, donde éste nos permitirá definir las funciones básicas de los contenedores.
