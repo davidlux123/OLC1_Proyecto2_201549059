@@ -68,7 +68,7 @@ Contiene los archivos del servidor del frontend.
 	 por medio de el endpoint /TraducirPython/ que enviará al servidor de del backend de NodeJS para que realize el analisis y provea los resutlados los cuales serviran para generar los archivos de los reportes y la transílasion de la salida.
 
 - ## **index.html:**
-	página principal en la que el clinete interactúa para realizar la el analisis, transiplasion y reportes que genera la aplicación web. 
+	página principal en la que el clinete interactúa para realizar la el analisis, transiplacion y obtener los reportes generados en el servidor del backend por medio de peticiones tipo GET a los en point /getTokens, /getErrores, /getAST, por medio de botones el cual el cuente solicita
 
 # Carpeta: NodeImage
 
@@ -104,5 +104,4 @@ Contiene los archivos de los servidores del backend.
 	Este archivo se encuentra la configuracion de las herramientas de typescript
 
 # Archivo docker-compose.yml
-
 declara los nombres de los servicios, puertos, volúmenes y además define la ruta del Dockerfile, donde éste nos permitirá definir las funciones básicas de los contenedores.
